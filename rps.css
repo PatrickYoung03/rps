@@ -1,0 +1,64 @@
+
+html {
+    background-color: burlywood;
+}
+#panel-1{
+    background-color: blanchedalmond;
+    height: 100vw;
+    width: 49.4%;
+    float: left;
+    border: solid 3px darksalmon;
+    margin-right: 0%;
+}
+
+#panel-2{
+    background-color: darksalmon;
+    height: 100vw;
+    width: 49.4%;
+    float: right;
+    border: solid 3px blanchedalmond;
+    margin-left: 0%;
+    font-family: 'bangers', cursive;
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center;
+    background-color:burlywood;
+    border-radius: 20%;
+    padding: 10px;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 50%;
+    left: 50%;
+    border: black 2px dashed;
+    font-family: 'Bangers', cursive;
+}
+
+.button {
+    height: 100px;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: 'bangers', cursive;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+#player-choice {
+    margin: 5%;
+}
+
+#cpu-choice {
+    margin: 5%;
+}
+
+#img-rock {
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
+}
+
+ #results {
+     margin: 5%
+ }
