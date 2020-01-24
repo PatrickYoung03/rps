@@ -1,29 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head> 
-        <link href="rps.css" rel="stylesheet" type = "text/css">
-        <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
-    </head>
+  <head>
+    <link href="rps.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <body>
-        <div id = "panel-1">      
-            <button id = "rock" class = "button">Rock</button>
-            <button id = "paper" class = "button">Paper</button>
-            <button id = "scissors" class = "button">Scissor me timbers</button>
-            <p id = "wins" class = scores>Player Score:</p>
-            <p id = "losses" class = "scores">Computer Score:</p>
-            <p id = "draws" class = "scores">Draws:</p>
-        </div>
-        <div id = "panel-2">
-            <p id = "player-choice">Player chooses:</p>
-            <p id = "cpu-choice">Computer chooses:</p>
-            <p id = "results">Winner</p>
-        </div>
+  <body>
+    <div id="panel-1">
+      <p id="username-display"></p>
+      <label id="label"
+        ><input
+          id="name"
+          type="text"
+          class="player-name"
+          placeholder="player-name"/></label
+      ><button id="name-btn">Set username</button>
+      <button id="rock" class="button">Rock</button>
+      <button id="paper" class="button">Paper</button>
+      <button id="scissors" class="button">Scissor me timbers</button>
+      <p id="wins" class="scores">Player Score:</p>
+      <p id="losses" class="scores">Badger Score:</p>
+      <p id="draws" class="scores">Draws:</p>
+    </div>
+    <div id="panel-2">
+      <p id="player-choice">Player chooses</p>
+      <p id="cpu-choice">Badger chooses</p>
+      <p id="results">Winner</p>
+      <img
+        id="badge"
+        src="https://images.earthtouchnews.com/media/295723/honey_badger_intelligence_08_05_2014.jpg"
+      />
+      <section>
+        <ul id="history"></ul>
+      </section>
+    </div>
 
+    <h1 id="header">Let's Play:</h1>
 
-        <h1 id = "header">Let's Play</h1>
-
-
-        <script src = "rps.js"></script>
-    </body>
+    <script src="rps.js"></script>
+  </body>
 </html>
